@@ -18,8 +18,6 @@ OTRS FEEDBACK PLUGIN - OTRS sisteminə yazılmış əlavədir. Belə ki, bu plug
 7. `php artisan db:seed` əmrini çalışdırmaq.
 8. `php artisan feedback:run` əmrini çalışdırmaq.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
 
 ## Lisenziya
 
