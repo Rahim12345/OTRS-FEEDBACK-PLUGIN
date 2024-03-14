@@ -27,59 +27,59 @@
             </tr>
             <tr>
                 <td class="first-col">Ümumilikdə dəstək xidmətindən nə dərəcədə razısınız?</td>
-                <td><input type="radio" value="5" name="s1" {{ $ticket->s1 == 5 ? 'checked' : '' }}/></td>
-                <td><input type="radio" value="4" name="s1" {{ $ticket->s1 == 4 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="3" name="s1" {{ $ticket->s1 == 3 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="2" name="s1" {{ $ticket->s1 == 2 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="1" name="s1" {{ $ticket->s1 == 1 ? 'checked' : '' }} /></td>
+                <td><input type="radio" value="5" name="s1" {{ $ticket->s1 == 5 ? 'checked' : '' }}disabled /></td>
+                <td><input type="radio" value="4" name="s1" {{ $ticket->s1 == 4 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="3" name="s1" {{ $ticket->s1 == 3 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="2" name="s1" {{ $ticket->s1 == 2 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="1" name="s1" {{ $ticket->s1 == 1 ? 'checked' : '' }} disabled /></td>
             </tr>
             <tr>
                 <td class="first-col">Dəstək xidmətinə müraciət etmək və dəstək komandamızla əlaqə saxlamaq nə qədər asan idi?</td>
-                <td><input type="radio" value="5" name="s2" {{ $ticket->s2 == 5 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="4" name="s2" {{ $ticket->s2 == 4 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="3" name="s2" {{ $ticket->s2 == 3 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="2" name="s2" {{ $ticket->s2 == 2 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="1" name="s2" {{ $ticket->s2 == 1 ? 'checked' : '' }} /></td>
+                <td><input type="radio" value="5" name="s2" {{ $ticket->s2 == 5 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="4" name="s2" {{ $ticket->s2 == 4 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="3" name="s2" {{ $ticket->s2 == 3 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="2" name="s2" {{ $ticket->s2 == 2 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="1" name="s2" {{ $ticket->s2 == 1 ? 'checked' : '' }} disabled /></td>
             </tr>
             <tr>
                 <td class="first-col">Dəstək xidməti əməkdaşının peşəkarlığını necə qiymətləndirərdiniz?</td>
-                <td><input type="radio" value="5" name="s3" {{ $ticket->s3 == 5 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="4" name="s3" {{ $ticket->s3 == 4 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="3" name="s3" {{ $ticket->s3 == 3 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="2" name="s3" {{ $ticket->s3 == 2 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="1" name="s3" {{ $ticket->s3 == 1 ? 'checked' : '' }} /></td>
+                <td><input type="radio" value="5" name="s3" {{ $ticket->s3 == 5 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="4" name="s3" {{ $ticket->s3 == 4 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="3" name="s3" {{ $ticket->s3 == 3 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="2" name="s3" {{ $ticket->s3 == 2 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="1" name="s3" {{ $ticket->s3 == 1 ? 'checked' : '' }} disabled /></td>
             </tr>
             <tr>
                 <td class="first-col">Dəstək xidməti əməkdaşının kommunikasiya bacarıqlarını necə qiymətləndirərdiniz?</td>
-                <td><input type="radio" value="5" name="s4" {{ $ticket->s4 == 5 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="4" name="s4" {{ $ticket->s4 == 4 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="3" name="s4" {{ $ticket->s4 == 3 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="2" name="s4" {{ $ticket->s4 == 2 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="1" name="s4" {{ $ticket->s4 == 1 ? 'checked' : '' }} /></td>
+                <td><input type="radio" value="5" name="s4" {{ $ticket->s4 == 5 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="4" name="s4" {{ $ticket->s4 == 4 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="3" name="s4" {{ $ticket->s4 == 3 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="2" name="s4" {{ $ticket->s4 == 2 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="1" name="s4" {{ $ticket->s4 == 1 ? 'checked' : '' }} disabled /></td>
             </tr>
             <tr>
                 <td class="first-col">Dəstək xidməti əməkdaşının müraciətin həllinə sərf etdiyi zaman sizi qane etdimi?</td>
-                <td><input type="radio" value="5" name="s5" {{ $ticket->s5 == 5 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="4" name="s5" {{ $ticket->s5 == 4 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="3" name="s5" {{ $ticket->s5 == 3 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="2" name="s5" {{ $ticket->s5 == 2 ? 'checked' : '' }} /></td>
+                <td><input type="radio" value="5" name="s5" {{ $ticket->s5 == 5 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="4" name="s5" {{ $ticket->s5 == 4 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="3" name="s5" {{ $ticket->s5 == 3 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="2" name="s5" {{ $ticket->s5 == 2 ? 'checked' : '' }} disabled /></td>
                 <td><input type="radio" value="1" name="s5" {{ $ticket->s5 == 1 ? 'checked' : '' }} /></td>
             </tr>
             <tr>
                 <td class="first-col">Dəstək xidməti əməkdaşı müraciətinizi tam olaraq anlaya bildimi?</td>
-                <td><input type="radio" value="5" name="s6" {{ $ticket->s6 == 5 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="4" name="s6" {{ $ticket->s6 == 4 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="3" name="s6" {{ $ticket->s6 == 3 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="2" name="s6" {{ $ticket->s6 == 2 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="1" name="s6" {{ $ticket->s6 == 1 ? 'checked' : '' }} /></td>
+                <td><input type="radio" value="5" name="s6" {{ $ticket->s6 == 5 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="4" name="s6" {{ $ticket->s6 == 4 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="3" name="s6" {{ $ticket->s6 == 3 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="2" name="s6" {{ $ticket->s6 == 2 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="1" name="s6" {{ $ticket->s6 == 1 ? 'checked' : '' }} disabled /></td>
             </tr>
             <tr>
                 <td class="first-col">Müraciət etdiyiniz mövzu üzrə ilk dəfə əlaqə saxladınız?</td>
-                <td><input type="radio" value="5" name="s7" {{ $ticket->s7 == 5 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="4" name="s7" {{ $ticket->s7 == 4 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="3" name="s7" {{ $ticket->s7 == 3 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="2" name="s7" {{ $ticket->s7 == 2 ? 'checked' : '' }} /></td>
-                <td><input type="radio" value="1" name="s7" {{ $ticket->s7 == 1 ? 'checked' : '' }} /></td>
+                <td><input type="radio" value="5" name="s7" {{ $ticket->s7 == 5 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="4" name="s7" {{ $ticket->s7 == 4 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="3" name="s7" {{ $ticket->s7 == 3 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="2" name="s7" {{ $ticket->s7 == 2 ? 'checked' : '' }} disabled /></td>
+                <td><input type="radio" value="1" name="s7" {{ $ticket->s7 == 1 ? 'checked' : '' }} disabled /></td>
             </tr>
 
         </table>
