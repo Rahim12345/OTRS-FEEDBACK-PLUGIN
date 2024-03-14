@@ -28,16 +28,3 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/ticket-history/{ticket_id}', [HomeController::class, 'ticketHistory'])
     ->name('ticket.history');
-
-
-//Route::get('/tokener', function (){
-//    $tickets = \App\Models\Ticket::where('id','<',1664)->get();
-//
-//    foreach($tickets as $ticket)
-//    {
-//        $ticket->update([
-//            'ticket_token'=>str_random(64),
-//            'mail_send'=>1
-//        ]);
-//    }
-//});
